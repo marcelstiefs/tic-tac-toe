@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(51, 50, 51);
+    font-family:sans-serif;
+    margin: 0;
+    color: whitesmoke;
+}
+h1{
+    text-align: center;
+    
+}
+.content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;
+    
+}
+ td {
+     width: 100px;
+     height: 100px;
+     text-align: center;
+     border: 1px solid rgb(255, 255, 255);
+     cursor: pointer;
+ }
+
+ td:hover{
+    background-color: rgb(79, 79, 79);
+ }
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: 3px solid rgb(255, 255, 255);
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+.myButton {
+    box-shadow: inset 0px -4px 7px 0px rgb(0, 176, 239);
+    background: linear-gradient(to bottom, rgb(0, 176, 239) 5%, #0688fa 100%);
+    background-color: #2dabf9;
+    border-radius: 3px;
+    border: 2px solid #0b0e07;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 9px 23px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    background-color: #0688fa;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
